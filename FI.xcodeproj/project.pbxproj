@@ -12,11 +12,20 @@
 		690218151F31808100E4FF14 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690218141F31808100E4FF14 /* FirstViewController.m */; };
 		690218181F31808100E4FF14 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690218171F31808100E4FF14 /* SecondViewController.m */; };
 		6902181B1F31808100E4FF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690218191F31808100E4FF14 /* Main.storyboard */; };
-		6902181D1F31808100E4FF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6902181C1F31808100E4FF14 /* Assets.xcassets */; };
 		690218201F31808100E4FF14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902181E1F31808100E4FF14 /* LaunchScreen.storyboard */; };
+		690218291F39599C00E4FF14 /* CMMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690218281F39599C00E4FF14 /* CMMainController.m */; };
+		6902182C1F3C2BBE00E4FF14 /* CMTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6902182B1F3C2BBE00E4FF14 /* CMTransformViewController.m */; };
+		690218321F40917000E4FF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690218311F40917000E4FF14 /* Assets.xcassets */; };
+		690218351F41DE1800E4FF14 /* CMContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 690218341F41DE1800E4FF14 /* CMContact.m */; };
+		690218391F41E9C500E4FF14 /* CMContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 690218381F41E9C500E4FF14 /* CMContactGroup.m */; };
+		6902183E1F41EF0800E4FF14 /* CMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6902183D1F41EF0800E4FF14 /* CMMainViewController.m */; };
+		CA0C0B45A5E4288F527DADF6 /* libPods-FI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679149508E1FCA56C593B65 /* libPods-FI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2679149508E1FCA56C593B65 /* libPods-FI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27995359CCE4B34A4EFAE2C0 /* Pods-FI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FI/Pods-FI.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5A8F2E9BF29E245EC26757 /* Pods-FI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FI.release.xcconfig"; path = "Pods/Target Support Files/Pods-FI/Pods-FI.release.xcconfig"; sourceTree = "<group>"; };
 		6902180A1F31808100E4FF14 /* FI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6902180E1F31808100E4FF14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		690218101F31808100E4FF14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,9 +35,19 @@
 		690218161F31808100E4FF14 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		690218171F31808100E4FF14 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6902181A1F31808100E4FF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6902181C1F31808100E4FF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6902181F1F31808100E4FF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690218211F31808100E4FF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690218271F39599C00E4FF14 /* CMMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMainController.h; sourceTree = "<group>"; };
+		690218281F39599C00E4FF14 /* CMMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMainController.m; sourceTree = "<group>"; };
+		6902182A1F3C2BBE00E4FF14 /* CMTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTransformViewController.h; sourceTree = "<group>"; };
+		6902182B1F3C2BBE00E4FF14 /* CMTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTransformViewController.m; sourceTree = "<group>"; };
+		690218311F40917000E4FF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		690218331F41DE1800E4FF14 /* CMContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMContact.h; sourceTree = "<group>"; };
+		690218341F41DE1800E4FF14 /* CMContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMContact.m; sourceTree = "<group>"; };
+		690218371F41E9C500E4FF14 /* CMContactGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMContactGroup.h; sourceTree = "<group>"; };
+		690218381F41E9C500E4FF14 /* CMContactGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMContactGroup.m; sourceTree = "<group>"; };
+		6902183C1F41EF0800E4FF14 /* CMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMainViewController.h; sourceTree = "<group>"; };
+		6902183D1F41EF0800E4FF14 /* CMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0C0B45A5E4288F527DADF6 /* libPods-FI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +67,8 @@
 			children = (
 				6902180C1F31808100E4FF14 /* FI */,
 				6902180B1F31808100E4FF14 /* Products */,
+				C365CF63E148FE5EB21B25C4 /* Pods */,
+				78D1E3FF6973886D62281A38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +83,7 @@
 		6902180C1F31808100E4FF14 /* FI */ = {
 			isa = PBXGroup;
 			children = (
+				690218361F41DE2D00E4FF14 /* TestTabView */,
 				690218101F31808100E4FF14 /* AppDelegate.h */,
 				690218111F31808100E4FF14 /* AppDelegate.m */,
 				690218131F31808100E4FF14 /* FirstViewController.h */,
@@ -68,10 +91,14 @@
 				690218161F31808100E4FF14 /* SecondViewController.h */,
 				690218171F31808100E4FF14 /* SecondViewController.m */,
 				690218191F31808100E4FF14 /* Main.storyboard */,
-				6902181C1F31808100E4FF14 /* Assets.xcassets */,
 				6902181E1F31808100E4FF14 /* LaunchScreen.storyboard */,
 				690218211F31808100E4FF14 /* Info.plist */,
 				6902180D1F31808100E4FF14 /* Supporting Files */,
+				690218271F39599C00E4FF14 /* CMMainController.h */,
+				690218281F39599C00E4FF14 /* CMMainController.m */,
+				6902182A1F3C2BBE00E4FF14 /* CMTransformViewController.h */,
+				6902182B1F3C2BBE00E4FF14 /* CMTransformViewController.m */,
+				690218311F40917000E4FF14 /* Assets.xcassets */,
 			);
 			path = FI;
 			sourceTree = "<group>";
@@ -84,6 +111,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		690218361F41DE2D00E4FF14 /* TestTabView */ = {
+			isa = PBXGroup;
+			children = (
+				6902183B1F41EED300E4FF14 /* controller */,
+				6902183A1F41E9F500E4FF14 /* bean */,
+			);
+			name = TestTabView;
+			sourceTree = "<group>";
+		};
+		6902183A1F41E9F500E4FF14 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				690218331F41DE1800E4FF14 /* CMContact.h */,
+				690218341F41DE1800E4FF14 /* CMContact.m */,
+				690218371F41E9C500E4FF14 /* CMContactGroup.h */,
+				690218381F41E9C500E4FF14 /* CMContactGroup.m */,
+			);
+			name = bean;
+			sourceTree = "<group>";
+		};
+		6902183B1F41EED300E4FF14 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6902183C1F41EF0800E4FF14 /* CMMainViewController.h */,
+				6902183D1F41EF0800E4FF14 /* CMMainViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		78D1E3FF6973886D62281A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2679149508E1FCA56C593B65 /* libPods-FI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C365CF63E148FE5EB21B25C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27995359CCE4B34A4EFAE2C0 /* Pods-FI.debug.xcconfig */,
+				2E5A8F2E9BF29E245EC26757 /* Pods-FI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690218241F31808100E4FF14 /* Build configuration list for PBXNativeTarget "FI" */;
 			buildPhases = (
+				DABA8BCED6BBF40DA1F16757 /* [CP] Check Pods Manifest.lock */,
 				690218061F31808100E4FF14 /* Sources */,
 				690218071F31808100E4FF14 /* Frameworks */,
 				690218081F31808100E4FF14 /* Resources */,
+				5CF53344D89F78701A553E63 /* [CP] Embed Pods Frameworks */,
+				75724F9E4BB4064DE87D6195 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,6 +191,7 @@
 				TargetAttributes = {
 					690218091F31808100E4FF14 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BEZDE997P9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,20 +220,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				690218201F31808100E4FF14 /* LaunchScreen.storyboard in Resources */,
-				6902181D1F31808100E4FF14 /* Assets.xcassets in Resources */,
+				690218321F40917000E4FF14 /* Assets.xcassets in Resources */,
 				6902181B1F31808100E4FF14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CF53344D89F78701A553E63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FI/Pods-FI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75724F9E4BB4064DE87D6195 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FI/Pods-FI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABA8BCED6BBF40DA1F16757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		690218061F31808100E4FF14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690218351F41DE1800E4FF14 /* CMContact.m in Sources */,
 				690218181F31808100E4FF14 /* SecondViewController.m in Sources */,
 				690218121F31808100E4FF14 /* AppDelegate.m in Sources */,
+				690218291F39599C00E4FF14 /* CMMainController.m in Sources */,
+				6902183E1F41EF0800E4FF14 /* CMMainViewController.m in Sources */,
+				690218391F41E9C500E4FF14 /* CMContactGroup.m in Sources */,
+				6902182C1F3C2BBE00E4FF14 /* CMTransformViewController.m in Sources */,
 				690218151F31808100E4FF14 /* FirstViewController.m in Sources */,
 				6902180F1F31808100E4FF14 /* main.m in Sources */,
 			);
@@ -276,23 +406,29 @@
 		};
 		690218251F31808100E4FF14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27995359CCE4B34A4EFAE2C0 /* Pods-FI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BEZDE997P9;
 				INFOPLIST_FILE = FI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cochee.fi.FI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		690218261F31808100E4FF14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5A8F2E9BF29E245EC26757 /* Pods-FI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BEZDE997P9;
 				INFOPLIST_FILE = FI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cochee.fi.FI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -315,6 +451,7 @@
 				690218261F31808100E4FF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

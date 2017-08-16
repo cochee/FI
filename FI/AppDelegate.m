@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "CMMainController.h"
+#import "CMTransformViewController.h"
+#import "CMMainViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +20,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].applicationFrame];
+//    CMMainController *mainController=[[CMMainController alloc]init];
+//    CMTransformViewController *mainController=[[CMTransformViewController alloc]init];
+    CMMainViewController *mainController=[[CMMainViewController alloc]init];
+
+    self.window.rootViewController=mainController;
+    self.window.backgroundColor=[UIColor colorWithRed:249/255.0 green:249/255.0 blue:249/255.0 alpha:1];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
